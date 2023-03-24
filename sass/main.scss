@@ -1,0 +1,119 @@
+/*# sourceMappingURL=main.css.map */
+
+
+/*Import Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+/*Color Variables*/
+
+:root {
+    /*primary*/
+    --light-red-cta: hsl(356, 100%, 66%);
+    --very-light-red-cta-bg: hsl(355, 100%, 74%);
+    --very-dark-blue-headings: hsl(208, 49%, 24%);
+
+    /*Neutral*/
+    --white-text: hsl(0, 0%, 100%);
+    --grayish-blue-footer-text: hsl(240, 2%, 79%);
+    --very-dark-black-blue-footer-bg: hsl(240, 10%, 16%);
+
+    /*Gradients*/
+    --bg-primary: linear-gradient(90deg, hsl(13deg 100% 72%) 0%, hsl(353deg 100% 62%) 100%);
+    --bg-neutral: linear-gradient(90deg, hsl(237, 17%, 21%) 0%, hsl(237, 23%, 32%) 100%);
+}
+
+p {
+    font-family: 'Overpass';
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Overpass';
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 375px) {
+
+    .header {
+        
+
+    }
+
+    .header__bg-img--mob{
+        height: 500px;
+        background: url("/dist/images/bg-pattern-intro-mobile.svg"), linear-gradient(180deg, hsl(13deg 100% 72%) 0%, hsl(353deg 100% 62%) 100%);
+        background-repeat: no-repeat;
+        background-position: right -600px top -300px, center ;
+    }
+
+    .header__title {}
+
+    .header__subtitle {}
+
+   
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px)and (max-width : 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px)and (max-width : 1024px)and (orientation : landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px)and (max-width : 1024px)and (orientation : portrait) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    /* Styles */
+}
